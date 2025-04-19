@@ -3,6 +3,16 @@ body {
 	text-align: center;
 	font-family: "Verdana", sans-serif;
 	color: white;
+	display: flex;
+	flex-direction: column; /* Stack elements vertically */
+	justify-content: space-evenly; /* Distribute space evenly */
+	align-items: center; /* Center elements horizontally */
+	min-height: 100vh; /* Ensure body takes up full viewport height */
+	padding: 0 10px; /* Add space on the sides to prevent content from touching edges */
+  }
+  
+  h1, h2, p, a {
+	margin: 10px 0; /* Add vertical spacing between elements */
   }
   
   .cta {
@@ -27,4 +37,6 @@ body {
   
   .footer {
 	text-align: right;
+	margin-top: 20px;
   }
+  
